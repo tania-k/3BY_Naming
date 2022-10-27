@@ -1,0 +1,26 @@
+[10/25/22 20:42:38]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/funannotate compare -i annotate/Coniosporium_tulheliwenetii_JES115 annotate/Neophaeococcomyces_mojaviensis_JES112 annotate/Taxawa_tesnikishii_JES119 -o compare -d /bigdata/stajichlab/shared/lib/funannotate_db --run_dnds estimate
+
+[10/25/22 20:42:38]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.8.13
+[10/25/22 20:42:38]: Running 1.8.14
+[10/25/22 20:42:55]: find_enrichment.py version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/find_enrichment.py
+[10/25/22 20:42:55]: mafft version=v7.508 (2022/Sep/07) path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/mafft
+[10/25/22 20:42:55]: trimal version=trimAl v1.4.rev15 build[2013-12-17] path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/trimal
+[10/25/22 20:42:55]: proteinortho version=6.1.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/proteinortho
+[10/25/22 20:42:55]: ete3 version=3.1.2 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/ete3
+[10/25/22 20:42:55]: phyml version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/phyml
+[10/25/22 20:42:55]: iqtree version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/iqtree
+[10/25/22 20:42:56]: Input files/folders: ['annotate/Coniosporium_tulheliwenetii_JES115', 'annotate/Neophaeococcomyces_mojaviensis_JES112', 'annotate/Taxawa_tesnikishii_JES119']
+
+[10/25/22 20:42:56]: Now parsing 3 genomes
+[10/25/22 20:43:00]: working on Coniosporium_tulheliwenetii JES115
+[10/25/22 20:43:24]: working on Neophaeococcomyces_mojaviensis JES112
+[10/25/22 20:43:49]: working on Taxawa_tesnikishii JES119
+[10/25/22 20:44:08]: No secondary metabolite annotations found
+[10/25/22 20:44:08]: Summarizing PFAM domain results
+[10/25/22 20:44:28]: Summarizing InterProScan results
+[10/25/22 20:44:31]: Loading InterPro descriptions
+[10/25/22 20:44:33]: Summarizing MEROPS protease results
+[10/25/22 20:44:33]: found 32/106 MEROPS familes with stdev >= 1.000000
+[10/25/22 20:44:34]: Summarizing CAZyme results
+[10/25/22 20:44:34]: found 54/132 CAZy familes with stdev >= 1.000000
+[10/25/22 20:44:35]: Summarizing COG results
