@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Coniosporium_tulheliwenetii_JES115",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "pep/Coniosporium_tulheliwenetii_JES115.proteins.fa",
+  "number-of-letters": 4241310,
+  "number-of-sequences": 8951,
+  "last-updated": "2022-10-23T11:47:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5325486,
+  "bytes-to-cache": 4322030,
+  "files": [
+    "Coniosporium_tulheliwenetii_JES115.pdb",
+    "Coniosporium_tulheliwenetii_JES115.phr",
+    "Coniosporium_tulheliwenetii_JES115.pin",
+    "Coniosporium_tulheliwenetii_JES115.pot",
+    "Coniosporium_tulheliwenetii_JES115.psq",
+    "Coniosporium_tulheliwenetii_JES115.ptf",
+    "Coniosporium_tulheliwenetii_JES115.pto"
+  ]
+}

@@ -1,0 +1,69 @@
+r05
+[15:02:57] INFO - Starting clinker
+[15:02:57] INFO - Parsing files:
+[15:02:57] INFO -   Aureobasidium_pullulans_EXF-150_MAT.gbk
+[15:02:57] INFO -   Coniosporium_apollinis_CBS100218_MAT.gbk
+[15:02:57] INFO -   Coniosporium_tulheliwenetii_JES115_MAT.gbk
+[15:02:57] INFO -   Taxawa_tesnikishii_JES119_MAT.gbk
+[15:02:57] INFO - Starting cluster alignments
+[15:02:57] INFO - Aureobasidium_pullulans_EXF-150_MAT vs Coniosporium_apollinis_CBS100218_MAT
+[15:02:57] INFO - Aureobasidium_pullulans_EXF-150_MAT vs Coniosporium_tulheliwenetii_JES115_MAT
+[15:02:57] INFO - Aureobasidium_pullulans_EXF-150_MAT vs Taxawa_tesnikishii_JES119_MAT
+[15:02:57] INFO - Coniosporium_apollinis_CBS100218_MAT vs Coniosporium_tulheliwenetii_JES115_MAT
+[15:02:57] INFO - Coniosporium_apollinis_CBS100218_MAT vs Taxawa_tesnikishii_JES119_MAT
+[15:02:57] INFO - Coniosporium_tulheliwenetii_JES115_MAT vs Taxawa_tesnikishii_JES119_MAT
+[15:02:58] INFO - Generating results summary...
+[15:02:58] INFO - Building clustermap.js visualisation
+[15:02:58] INFO - Writing to: Dothid2.html
+[15:02:59] INFO - Done!
+Aureobasidium_pullulans_EXF-150_MAT vs Coniosporium_apollinis_CBS100218_MAT
+---------------------------------------------------------------------------
+Query           Target          Identity  Similarity
+XP_029765961.1  XP_007779098.1  0.67      0.81      
+XP_029765962.1  XP_007779097.1  0.51      0.61      
+XP_029766327.1  XP_007782974.1  0.31      0.44      
+XP_029765312.1  XP_007781593.1  0.80      0.88      
+
+Aureobasidium_pullulans_EXF-150_MAT vs Coniosporium_tulheliwenetii_JES115_MAT
+-----------------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_029765961.1  ncbi:H2199_000672-T1  0.63      0.76      
+XP_029765962.1  ncbi:H2199_000671-T1  0.48      0.58      
+XP_029765312.1  ncbi:H2199_005257-T1  0.64      0.71      
+
+Aureobasidium_pullulans_EXF-150_MAT vs Taxawa_tesnikishii_JES119_MAT
+--------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_029765960.1  ncbi:H2203_007156-T1  0.69      0.77      
+XP_029765961.1  ncbi:H2203_007157-T1  0.82      0.90      
+XP_029765962.1  ncbi:H2203_007158-T1  0.50      0.59      
+XP_029766327.1  ncbi:H2203_009184-T1  0.37      0.50      
+XP_029765312.1  ncbi:H2203_009196-T1  0.83      0.90      
+
+Coniosporium_apollinis_CBS100218_MAT vs Coniosporium_tulheliwenetii_JES115_MAT
+------------------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_007779097.1  ncbi:H2199_000671-T1  0.81      0.86      
+XP_007779098.1  ncbi:H2199_000672-T1  0.87      0.89      
+XP_007782974.1  ncbi:H2199_005369-T1  0.79      0.84      
+XP_007782976.1  ncbi:H2199_005368-T1  0.78      0.83      
+XP_007781592.1  ncbi:H2199_005258-T1  0.87      0.91      
+XP_007781593.1  ncbi:H2199_005257-T1  0.80      0.80      
+
+Coniosporium_apollinis_CBS100218_MAT vs Taxawa_tesnikishii_JES119_MAT
+---------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_007779097.1  ncbi:H2203_007158-T1  0.43      0.52      
+XP_007779098.1  ncbi:H2203_007157-T1  0.70      0.80      
+XP_007782974.1  ncbi:H2203_009184-T1  0.32      0.44      
+XP_007782976.1  ncbi:H2203_009185-T1  0.53      0.60      
+XP_007781593.1  ncbi:H2203_009196-T1  0.80      0.88      
+
+Coniosporium_tulheliwenetii_JES115_MAT vs Taxawa_tesnikishii_JES119_MAT
+-----------------------------------------------------------------------
+Query                 Target                Identity  Similarity
+ncbi:H2199_000671-T1  ncbi:H2203_007158-T1  0.43      0.53      
+ncbi:H2199_000672-T1  ncbi:H2203_007157-T1  0.65      0.75      
+ncbi:H2199_005368-T1  ncbi:H2203_009185-T1  0.48      0.55      
+ncbi:H2199_005369-T1  ncbi:H2203_009184-T1  0.32      0.45      
+ncbi:H2199_005257-T1  ncbi:H2203_009196-T1  0.65      0.71      

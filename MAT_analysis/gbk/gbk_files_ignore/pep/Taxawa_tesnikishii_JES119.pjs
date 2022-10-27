@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Taxawa_tesnikishii_JES119",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "pep/Taxawa_tesnikishii_JES119.proteins.fa",
+  "number-of-letters": 4356345,
+  "number-of-sequences": 9189,
+  "last-updated": "2022-10-23T11:47:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5468351,
+  "bytes-to-cache": 4439191,
+  "files": [
+    "Taxawa_tesnikishii_JES119.pdb",
+    "Taxawa_tesnikishii_JES119.phr",
+    "Taxawa_tesnikishii_JES119.pin",
+    "Taxawa_tesnikishii_JES119.pot",
+    "Taxawa_tesnikishii_JES119.psq",
+    "Taxawa_tesnikishii_JES119.ptf",
+    "Taxawa_tesnikishii_JES119.pto"
+  ]
+}

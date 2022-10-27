@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Coniosporium_apollinis_CBS100218",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Coniosporium_apollinis_CBS100218.proteins.fa",
+  "number-of-letters": 4486478,
+  "number-of-sequences": 9308,
+  "last-updated": "2022-10-24T12:39:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6106717,
+  "bytes-to-cache": 4570403,
+  "files": [
+    "Coniosporium_apollinis_CBS100218.pdb",
+    "Coniosporium_apollinis_CBS100218.phr",
+    "Coniosporium_apollinis_CBS100218.pin",
+    "Coniosporium_apollinis_CBS100218.pot",
+    "Coniosporium_apollinis_CBS100218.psq",
+    "Coniosporium_apollinis_CBS100218.ptf",
+    "Coniosporium_apollinis_CBS100218.pto"
+  ]
+}

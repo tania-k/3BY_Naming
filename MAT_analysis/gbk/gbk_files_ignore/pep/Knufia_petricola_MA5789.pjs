@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Knufia_petricola_MA5789",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Knufia_petricola_MA5789.proteins.fa",
+  "number-of-letters": 4823166,
+  "number-of-sequences": 9773,
+  "last-updated": "2022-10-23T22:31:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6023038,
+  "bytes-to-cache": 4911260,
+  "files": [
+    "Knufia_petricola_MA5789.pdb",
+    "Knufia_petricola_MA5789.phr",
+    "Knufia_petricola_MA5789.pin",
+    "Knufia_petricola_MA5789.pot",
+    "Knufia_petricola_MA5789.psq",
+    "Knufia_petricola_MA5789.ptf",
+    "Knufia_petricola_MA5789.pto"
+  ]
+}

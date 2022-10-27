@@ -1,0 +1,90 @@
+r05
+[17:46:02] INFO - Starting clinker
+[17:46:02] INFO - Parsing files:
+[17:46:02] INFO -   Capronia_coronata_CBS.617.96_MAT.gbk
+[17:46:02] INFO -   Exophiala_dermatitidis_CBS115663_MAT.gbk
+[17:46:02] INFO -   Exophiala_dermatitidis.NIH.UT8656.gbk
+[17:46:02] INFO -   Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT.gbk
+[17:46:02] INFO -   Neophaeococcomyces_mojaviensis_JES112.MAT.gbk
+[17:46:02] INFO - Starting cluster alignments
+[17:46:02] INFO - Capronia_coronata_CBS.617.96_MAT vs Exophiala_dermatitidis_CBS115663_MAT
+[17:46:02] INFO - Capronia_coronata_CBS.617.96_MAT vs Exophiala_dermatitidis.NIH.UT8656
+[17:46:02] INFO - Capronia_coronata_CBS.617.96_MAT vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+[17:46:02] INFO - Capronia_coronata_CBS.617.96_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+[17:46:02] INFO - Exophiala_dermatitidis_CBS115663_MAT vs Exophiala_dermatitidis.NIH.UT8656
+[17:46:02] INFO - Exophiala_dermatitidis_CBS115663_MAT vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+[17:46:02] INFO - Exophiala_dermatitidis_CBS115663_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+[17:46:02] INFO - Exophiala_dermatitidis.NIH.UT8656 vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+[17:46:02] INFO - Exophiala_dermatitidis.NIH.UT8656 vs Neophaeococcomyces_mojaviensis_JES112.MAT
+[17:46:02] INFO - Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+[17:46:03] INFO - Generating results summary...
+[17:46:03] INFO - Building clustermap.js visualisation
+[17:46:03] INFO - Writing to: Chaet3.html
+[17:46:03] INFO - Done!
+Capronia_coronata_CBS.617.96_MAT vs Exophiala_dermatitidis_CBS115663_MAT
+------------------------------------------------------------------------
+Query           Target                   Identity  Similarity
+XP_007727018.1  ncbi:JAAAJM01_008638-T1  0.95      0.97      
+XP_007727022.1  ncbi:JAAAJM01_008640-T1  0.31      0.45      
+XP_007727023.1  ncbi:JAAAJM01_008641-T1  0.57      0.70      
+XP_007727024.1  ncbi:JAAAJM01_008642-T1  0.34      0.42      
+XP_007727026.1  ncbi:JAAAJM01_008643-T1  0.72      0.82      
+
+Capronia_coronata_CBS.617.96_MAT vs Exophiala_dermatitidis.NIH.UT8656
+---------------------------------------------------------------------
+Query           Target          Identity  Similarity
+XP_007727018.1  XP_009161377.1  0.94      0.97      
+XP_007727025.1  XP_009161380.1  0.41      0.53      
+XP_007727026.1  XP_009161381.1  0.71      0.81      
+
+Capronia_coronata_CBS.617.96_MAT vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+------------------------------------------------------------------------------
+Query           Target                   Identity  Similarity
+XP_007727018.1  ncbi:JAKLMK01_008867-T1  0.83      0.91      
+XP_007727026.1  ncbi:JAKLMK01_008851-T1  0.57      0.68      
+
+Capronia_coronata_CBS.617.96_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+-----------------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_007727018.1  ncbi:H2198_007103-T1  0.85      0.92      
+XP_007727026.1  ncbi:H2198_002046-T1  0.58      0.68      
+
+Exophiala_dermatitidis_CBS115663_MAT vs Exophiala_dermatitidis.NIH.UT8656
+-------------------------------------------------------------------------
+Query                    Target          Identity  Similarity
+ncbi:JAAAJM01_008638-T1  XP_009161377.1  1.00      1.00      
+ncbi:JAAAJM01_008639-T1  XP_009161378.1  0.95      0.97      
+ncbi:JAAAJM01_008640-T1  XP_009161379.1  0.66      0.71      
+ncbi:JAAAJM01_008643-T1  XP_009161381.1  0.98      0.99      
+
+Exophiala_dermatitidis_CBS115663_MAT vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+----------------------------------------------------------------------------------
+Query                    Target                   Identity  Similarity
+ncbi:JAAAJM01_008638-T1  ncbi:JAKLMK01_008867-T1  0.84      0.91      
+ncbi:JAAAJM01_008642-T1  ncbi:JAKLMK01_008852-T1  0.30      0.45      
+ncbi:JAAAJM01_008643-T1  ncbi:JAKLMK01_008851-T1  0.58      0.68      
+
+Exophiala_dermatitidis_CBS115663_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+---------------------------------------------------------------------------------
+Query                    Target                Identity  Similarity
+ncbi:JAAAJM01_008638-T1  ncbi:H2198_007103-T1  0.86      0.92      
+ncbi:JAAAJM01_008643-T1  ncbi:H2198_002046-T1  0.60      0.71      
+
+Exophiala_dermatitidis.NIH.UT8656 vs Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT
+-------------------------------------------------------------------------------
+Query           Target                   Identity  Similarity
+XP_009161377.1  ncbi:JAKLMK01_008867-T1  0.84      0.92      
+XP_009161381.1  ncbi:JAKLMK01_008851-T1  0.58      0.68      
+
+Exophiala_dermatitidis.NIH.UT8656 vs Neophaeococcomyces_mojaviensis_JES112.MAT
+------------------------------------------------------------------------------
+Query           Target                Identity  Similarity
+XP_009161377.1  ncbi:H2198_007103-T1  0.86      0.92      
+XP_009161381.1  ncbi:H2198_002046-T1  0.60      0.70      
+
+Neophaeococcomyces_aloes_FJII-L3-CM-P2_MAT vs Neophaeococcomyces_mojaviensis_JES112.MAT
+---------------------------------------------------------------------------------------
+Query                    Target                Identity  Similarity
+ncbi:JAKLMK01_008851-T1  ncbi:H2198_002046-T1  0.79      0.87      
+ncbi:JAKLMK01_008852-T1  ncbi:H2198_002047-T1  0.54      0.60      
+ncbi:JAKLMK01_008867-T1  ncbi:H2198_007103-T1  0.95      0.98      

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Zymoseptoria_tritici_IPO323",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Zymoseptoria_tritici_IPO323.proteins.fa",
+  "number-of-letters": 4791524,
+  "number-of-sequences": 10941,
+  "last-updated": "2022-10-23T18:24:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6737754,
+  "bytes-to-cache": 4890138,
+  "files": [
+    "Zymoseptoria_tritici_IPO323.pdb",
+    "Zymoseptoria_tritici_IPO323.phr",
+    "Zymoseptoria_tritici_IPO323.pin",
+    "Zymoseptoria_tritici_IPO323.pot",
+    "Zymoseptoria_tritici_IPO323.psq",
+    "Zymoseptoria_tritici_IPO323.ptf",
+    "Zymoseptoria_tritici_IPO323.pto"
+  ]
+}

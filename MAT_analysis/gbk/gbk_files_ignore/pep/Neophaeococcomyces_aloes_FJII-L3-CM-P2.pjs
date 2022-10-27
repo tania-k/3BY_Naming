@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Neophaeococcomyces_aloes_FJII-L3-CM-P2",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Neophaeococcomyces_aloes_FJII-L3-CM-P2.proteins.fa",
+  "number-of-letters": 4855694,
+  "number-of-sequences": 9410,
+  "last-updated": "2022-10-26T15:01:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6050041,
+  "bytes-to-cache": 4940553,
+  "files": [
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.pdb",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.phr",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.pin",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.pot",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.psq",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.ptf",
+    "Neophaeococcomyces_aloes_FJII-L3-CM-P2.pto"
+  ]
+}

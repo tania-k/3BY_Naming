@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Neophaeococcomyces_mojaviensis_JES112",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Neophaeococcomyces_mojaviensis_JES112.proteins.fa",
+  "number-of-letters": 5370491,
+  "number-of-sequences": 10844,
+  "last-updated": "2022-10-23T15:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6676148,
+  "bytes-to-cache": 5468248,
+  "files": [
+    "Neophaeococcomyces_mojaviensis_JES112.pdb",
+    "Neophaeococcomyces_mojaviensis_JES112.phr",
+    "Neophaeococcomyces_mojaviensis_JES112.pin",
+    "Neophaeococcomyces_mojaviensis_JES112.pot",
+    "Neophaeococcomyces_mojaviensis_JES112.psq",
+    "Neophaeococcomyces_mojaviensis_JES112.ptf",
+    "Neophaeococcomyces_mojaviensis_JES112.pto"
+  ]
+}

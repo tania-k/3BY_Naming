@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Exophiala_aquamarina_CBS119918",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Exophiala_aquamarina_CBS119918.proteins.fa",
+  "number-of-letters": 6064173,
+  "number-of-sequences": 13118,
+  "last-updated": "2022-10-24T09:25:00",
+  "number-of-volumes": 1,
+  "bytes-total": 8320269,
+  "bytes-to-cache": 6182388,
+  "files": [
+    "Exophiala_aquamarina_CBS119918.pdb",
+    "Exophiala_aquamarina_CBS119918.phr",
+    "Exophiala_aquamarina_CBS119918.pin",
+    "Exophiala_aquamarina_CBS119918.pot",
+    "Exophiala_aquamarina_CBS119918.psq",
+    "Exophiala_aquamarina_CBS119918.ptf",
+    "Exophiala_aquamarina_CBS119918.pto"
+  ]
+}

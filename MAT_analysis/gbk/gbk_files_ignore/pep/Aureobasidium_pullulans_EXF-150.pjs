@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Aureobasidium_pullulans_EXF-150",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Aureobasidium_pullulans_EXF-150.scaffolds.fa",
+  "number-of-letters": 5256702,
+  "number-of-sequences": 11844,
+  "last-updated": "2022-10-24T10:00:00",
+  "number-of-volumes": 1,
+  "bytes-total": 7355671,
+  "bytes-to-cache": 5363451,
+  "files": [
+    "Aureobasidium_pullulans_EXF-150.pdb",
+    "Aureobasidium_pullulans_EXF-150.phr",
+    "Aureobasidium_pullulans_EXF-150.pin",
+    "Aureobasidium_pullulans_EXF-150.pot",
+    "Aureobasidium_pullulans_EXF-150.psq",
+    "Aureobasidium_pullulans_EXF-150.ptf",
+    "Aureobasidium_pullulans_EXF-150.pto"
+  ]
+}

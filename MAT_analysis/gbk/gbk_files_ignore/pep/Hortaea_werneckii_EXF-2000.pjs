@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Hortaea_werneckii_EXF-2000",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "pep/Hortaea_werneckii_EXF-2000.proteins.fa",
+  "number-of-letters": 9100687,
+  "number-of-sequences": 18156,
+  "last-updated": "2022-10-24T00:17:00",
+  "number-of-volumes": 1,
+  "bytes-total": 11298144,
+  "bytes-to-cache": 9264236,
+  "files": [
+    "Hortaea_werneckii_EXF-2000.pdb",
+    "Hortaea_werneckii_EXF-2000.phr",
+    "Hortaea_werneckii_EXF-2000.pin",
+    "Hortaea_werneckii_EXF-2000.pot",
+    "Hortaea_werneckii_EXF-2000.psq",
+    "Hortaea_werneckii_EXF-2000.ptf",
+    "Hortaea_werneckii_EXF-2000.pto"
+  ]
+}
