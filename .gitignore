@@ -1,0 +1,22 @@
+# exclude folders below, as they have large files unecessary for upload
+    MAT_analysis/gbk/gbk_files_ignore/*
+    assembly/Asm_hybrid/JES_112/input/*
+    assembly/Asm_hybrid/JES_115/input/*
+    assembly/Asm_hybrid/JES_119/input/*
+    assembly/Asm_hybrid/JES_119.2022_06/input/*
+    assembly/Asm_hybrid/JES_112/lib/*
+    assembly/Asm_hybrid/JES_112/genomes/*
+    assembly/Asm_hybrid/JES_112/ignore/*
+    assembly/Asm_hybrid/JES_112/asm/*
+    assembly/Asm_hybrid/JES_115/asm/*
+    assembly/Asm_hybrid/JES_115/genomes/*
+    assembly/Asm_hybrid/JES_115/ignore/*
+    assembly/Asm_hybrid/JES_115/input/*
+    assembly/Asm_hybrid/JES_119.2022_06/genomes/*
+    assembly/Asm_hybrid/JES_119.2022_06/hiC_QC/*
+    assembly/Asm_hybrid/JES_119.2022_06/hiC_scaffold/*
+    assembly/Asm_hybrid/JES_119.2022_06/JES119/*
+    assembly/Asm_hybrid/JES_119.2022_06/JES119_3comboFC/*
+    assembly/Asm_hybrid/JES_119.2022_06/JES119_fast_R10/*
+    assembly/Asm_hybrid/JES_119.2022_06/juicer/*
+    assembly/Asm_hybrid/JES_119.2022_06/masurca/*
