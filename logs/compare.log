@@ -1,0 +1,41 @@
+Loading funannotate/1.8
+  Loading requirement: CodingQuarry/2.0 signalp/6.0g gmap/2021-12-17
+    fasta/36.3.8h PASA/2.5.2
+[Oct 25 08:42 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.8.13
+[Oct 25 08:42 PM]: Running 1.8.14
+[Oct 25 08:42 PM]: Now parsing 3 genomes
+[Oct 25 08:43 PM]: working on Coniosporium_tulheliwenetii JES115
+[Oct 25 08:43 PM]: working on Neophaeococcomyces_mojaviensis JES112
+[Oct 25 08:43 PM]: working on Taxawa_tesnikishii JES119
+[Oct 25 08:44 PM]: No secondary metabolite annotations found
+[Oct 25 08:44 PM]: Summarizing PFAM domain results
+[Oct 25 08:44 PM]: Summarizing InterProScan results
+[Oct 25 08:44 PM]: Loading InterPro descriptions
+[Oct 25 08:44 PM]: Summarizing MEROPS protease results
+[Oct 25 08:44 PM]: found 32/106 MEROPS familes with stdev >= 1.000000
+[Oct 25 08:44 PM]: Summarizing CAZyme results
+[Oct 25 08:44 PM]: found 54/132 CAZy familes with stdev >= 1.000000
+[Oct 25 08:44 PM]: Summarizing COG results
+-------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8/env/bin/funannotate", line 8, in <module>
+    sys.exit(main())
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/funannotate/funannotate.py", line 716, in main
+    mod.main(arguments)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/funannotate/compare.py", line 657, in main
+    lib.donutplot(COGSdf2, resources.COGS, os.path.join(
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/funannotate/library.py", line 7992, in donutplot
+    plt.pie(data[0], labels=names, colors=color_palette)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 3006, in pie
+    return gca().pie(
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/__init__.py", line 1361, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 3102, in pie
+    w = mpatches.Wedge((x, y), radius, 360. * min(theta1, theta2),
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/patches.py", line 1170, in __init__
+    self._recompute_path()
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/patches.py", line 1182, in _recompute_path
+    arc = Path.arc(theta1, theta2)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.15/env/lib/python3.8/site-packages/matplotlib/path.py", line 950, in arc
+    n = int(2 ** np.ceil((eta2 - eta1) / halfpi))
+ValueError: cannot convert float NaN to integer
