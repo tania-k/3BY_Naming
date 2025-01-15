@@ -1,0 +1,49 @@
+ITSx -- Identifies ITS sequences and extracts the ITS region
+by Johan Bengtsson-Palme et al., University of Gothenburg
+Version: 1.1.3
+-----------------------------------------------------------------
+Fri Jun 10 22:44:43 2022 : Preparing HMM database (should be quick)...
+Fri Jun 10 22:44:44 2022 : Checking and handling input sequence data (should not take long)...
+Fri Jun 10 22:44:44 2022 : Comparing sequences to HMM database (round 1 of 1)...
+    Fri Jun 10 22:44:52 2022 : Fungi analysis of main strand finished.
+    Fri Jun 10 22:44:58 2022 : Fungi analysis of complementary strand finished.
+    Fri Jun 10 22:45:03 2022 : Metazoa analysis of main strand finished.
+    Fri Jun 10 22:45:07 2022 : Metazoa analysis of complementary strand finished.
+    Fri Jun 10 22:45:10 2022 : Tracheophyta analysis of main strand finished.
+    Fri Jun 10 22:45:13 2022 : Tracheophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:14 2022 : Alveolates analysis of main strand finished.
+    Fri Jun 10 22:45:15 2022 : Alveolates analysis of complementary strand finished.
+    Fri Jun 10 22:45:16 2022 : Oomycota analysis of main strand finished.
+    Fri Jun 10 22:45:17 2022 : Oomycota analysis of complementary strand finished.
+    Fri Jun 10 22:45:18 2022 : Chlorophyta analysis of main strand finished.
+    Fri Jun 10 22:45:19 2022 : Chlorophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:19 2022 : Rhizaria analysis of main strand finished.
+    Fri Jun 10 22:45:20 2022 : Rhizaria analysis of complementary strand finished.
+    Fri Jun 10 22:45:20 2022 : Marchantiophyta analysis of main strand finished.
+    Fri Jun 10 22:45:21 2022 : Marchantiophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:21 2022 : Amoebozoa analysis of main strand finished.
+    Fri Jun 10 22:45:22 2022 : Amoebozoa analysis of complementary strand finished.
+    Fri Jun 10 22:45:22 2022 : Rhodophyta analysis of main strand finished.
+    Fri Jun 10 22:45:22 2022 : Rhodophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:23 2022 : Bacillariophyta analysis of main strand finished.
+    Fri Jun 10 22:45:23 2022 : Bacillariophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:23 2022 : Bryophyta analysis of main strand finished.
+    Fri Jun 10 22:45:23 2022 : Bryophyta analysis of complementary strand finished.
+    Fri Jun 10 22:45:24 2022 : Euglenozoa analysis of main strand finished.
+    Fri Jun 10 22:45:24 2022 : Euglenozoa analysis of complementary strand finished.
+    Fri Jun 10 22:45:24 2022 : Phaeophyceae analysis of main strand finished.
+    Fri Jun 10 22:45:24 2022 : Phaeophyceae analysis of complementary strand finished.
+    Fri Jun 10 22:45:24 2022 : Haptophyceae analysis of main strand finished.
+    Fri Jun 10 22:45:24 2022 : Haptophyceae analysis of complementary strand finished.
+    Fri Jun 10 22:45:24 2022 : Raphidophyceae analysis of main strand finished.
+    Fri Jun 10 22:45:25 2022 : Raphidophyceae analysis of complementary strand finished.
+    Fri Jun 10 22:45:25 2022 : Synurophyceae analysis of main strand finished.
+    Fri Jun 10 22:45:25 2022 : Synurophyceae analysis of complementary strand finished.
+    Fri Jun 10 22:45:25 2022 : Eustigmatophyceae analysis of main strand finished.
+    Fri Jun 10 22:45:25 2022 : Eustigmatophyceae analysis of complementary strand finished.
+Fri Jun 10 22:45:25 2022 : Analysing results of HMM-scan (this might take quite some time)...
+Fri Jun 10 22:45:26 2022 : Extraction finished!
+-----------------------------------------------------------------
+Thank you for using ITSx!
+Please report bugs or unsupported lineages to itsx@microbiology.se
+

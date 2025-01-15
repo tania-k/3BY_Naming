@@ -1,0 +1,276 @@
+IQ-TREE 2.2.0-beta COVID-edition built Dec 15 2021
+
+Input file name: aln/rDNA/JES_112.ITS2.aln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 939605
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 217 nucleotide sites
+Number of constant sites: 96 (= 44.2396% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 96 (= 44.2396% of all sites)
+Number of parsimony informative sites: 90
+Number of distinct site patterns: 131
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2u+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2u+F+G4        -1759.422    3616.844 +    0.138    3646.185 +     0.33    3782.459 +    0.544
+TIM2+F+G4         -1757.426    3614.851 +    0.373    3645.574 +    0.448    3783.846 +    0.272
+TNe+G4            -1769.951    3631.901 -  7.4e-05    3657.337 -  0.00125    3787.376 -   0.0465
+TPM2u+F+I+G4      -1759.315    3618.630 +   0.0564    3649.353 +   0.0678    3787.625 -   0.0411
+TIM2+F+I+G4       -1757.319    3616.639 +    0.153    3648.784 +   0.0901    3789.014 -   0.0205
+TIM2e+G4          -1768.209    3630.417 - 0.000155    3657.116 -   0.0014    3789.272 -    0.018
+HKY+F+G4          -1765.530    3627.059 - 0.000833    3655.059 -  0.00391    3789.295 -   0.0178
+TN+F+G4           -1763.487    3624.974 -  0.00236    3654.315 -  0.00567    3790.589 -  0.00933
+TIM3e+G4          -1769.134    3632.268 - 6.16e-05    3658.967 - 0.000554    3791.124 -  0.00714
+TNe+I+G4          -1769.666    3633.332 - 3.62e-05    3660.030 - 0.000325    3792.187 -   0.0042
+TIMe+G4           -1769.806    3633.612 - 3.15e-05    3660.310 - 0.000283    3792.467 -  0.00365
+TVM+F+G4          -1759.049    3620.097 -   0.0271    3652.243 -    0.016    3792.472 -  0.00364
+TIM2e+I+G4        -1767.835    3631.669 - 8.31e-05    3659.669 -  0.00039    3793.904 -  0.00178
+GTR+F+G4          -1757.173    3618.347 +    0.065    3651.957 -   0.0184    3794.102 -  0.00161
+TPM3u+F+G4        -1765.383    3628.766 - 0.000355    3658.107 - 0.000851    3794.381 -   0.0014
+K3Pu+F+G4         -1765.426    3628.853 -  0.00034    3658.194 - 0.000815    3794.468 -  0.00134
+HKY+F+I+G4        -1765.688    3629.376 - 0.000262    3658.718 - 0.000628    3794.991 -  0.00103
+K2P+G4            -1776.567    3643.134 - 2.69e-07    3667.345 -  8.4e-06    3795.229 - 0.000917
+TIM+F+G4          -1763.372    3626.744 - 0.000976    3657.467 -  0.00117    3795.739 - 0.000711
+TIM3+F+G4         -1763.397    3626.794 - 0.000951    3657.517 -  0.00114    3795.789 - 0.000693
+TIM3e+I+G4        -1768.806    3633.611 - 3.15e-05    3661.611 - 0.000148    3795.846 - 0.000673
+TN+F+I+G4         -1763.508    3627.016 - 0.000851    3657.739 -  0.00102    3796.011 -  0.00062
+TIMe+I+G4         -1769.492    3634.983 - 1.59e-05    3662.983 - 7.44e-05    3797.218 - 0.000339
+TVM+F+I+G4        -1758.913    3621.825 -   0.0114    3655.435 -  0.00324    3797.580 - 0.000283
+TPM2+G4           -1775.065    3642.131 - 4.45e-07    3667.566 - 7.52e-06    3797.606 - 0.000279
+SYM+G4            -1767.146    3632.291 - 6.09e-05    3661.633 - 0.000146    3797.906 -  0.00024
+TPM3+G4           -1775.570    3643.140 - 2.68e-07    3668.576 - 4.54e-06    3798.616 - 0.000169
+GTR+F+I+G4        -1757.008    3620.017 -   0.0282    3655.133 -  0.00377    3799.151 - 0.000129
+TPM3u+F+I+G4      -1765.520    3631.039 - 0.000114    3661.762 - 0.000137    3800.034 -  8.3e-05
+K3Pu+F+I+G4       -1765.583    3631.166 - 0.000107    3661.888 - 0.000129    3800.160 - 7.79e-05
+K3P+G4            -1776.396    3644.793 - 1.17e-07    3670.228 - 1.99e-06    3800.268 - 7.38e-05
+K2P+I+G4          -1776.664    3645.328 - 8.99e-08    3670.764 - 1.52e-06    3800.804 - 5.65e-05
+TIM3+F+I+G4       -1763.398    3628.796 -  0.00035    3660.942 - 0.000206    3801.171 -  4.7e-05
+TIM+F+I+G4        -1763.424    3628.848 - 0.000341    3660.994 - 0.000201    3801.223 - 4.58e-05
+SYM+I+G4          -1766.677    3633.354 - 3.58e-05    3664.077 -  4.3e-05    3802.349 - 2.61e-05
+TPM2+I+G4         -1775.041    3644.083 - 1.68e-07    3670.781 - 1.51e-06    3802.938 - 1.94e-05
+TPM3+I+G4         -1775.637    3645.274 - 9.24e-08    3671.972 - 8.31e-07    3804.129 - 1.07e-05
+TVMe+G4           -1773.764    3643.529 - 2.21e-07    3671.529 - 1.04e-06    3805.764 - 4.73e-06
+K3P+I+G4          -1776.488    3646.975 - 3.95e-08    3673.673 - 3.55e-07    3805.830 - 4.57e-06
+UNREST+FO+G4      -1752.752    3617.503 +   0.0991    3657.403 -  0.00121    3806.777 - 2.85e-06
+TVMe+I+G4         -1773.732    3645.463 -  8.4e-08    3674.805 - 2.02e-07    3811.078 - 3.32e-07
+UNREST+FO+I+G4    -1752.642    3619.285 -   0.0406    3660.870 - 0.000214    3811.939 - 2.16e-07
+GTR+F+R3          -1759.794    3629.587 - 0.000235    3667.848 - 6.53e-06    3815.482 - 3.67e-08
+GTR+F+R2          -1767.573    3641.147 - 7.27e-07    3676.263 - 9.72e-08    3820.281 - 3.33e-09
+GTR+F+R4          -1758.042    3630.084 - 0.000184    3671.669 - 9.67e-07    3822.738 - 9.75e-10
+F81+F+G4          -1791.691    3677.383 - 9.84e-15    3704.081 - 8.85e-14    3836.238 - 1.14e-12
+F81+F+I+G4        -1791.888    3679.777 - 2.97e-15    3707.777 - 1.39e-14    3842.012 - 6.36e-14
+JC+G4             -1807.531    3703.062 - 2.61e-20    3726.085 - 1.48e-18    3851.777 - 4.82e-16
+JC+I+G4           -1807.688    3705.375 - 8.22e-21    3729.586 - 2.56e-19    3857.471 -  2.8e-17
+GTR+F+I           -1791.526    3687.052 - 7.83e-17    3720.662 - 2.22e-17    3862.807 - 1.94e-18
+GTR+F             -1882.352    3866.704 - 7.63e-56    3898.850 -  4.5e-56    4039.079 - 1.03e-56
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2u+F+G4
+
+Rate parameter R:
+
+  A-C: 2.0801
+  A-G: 3.7042
+  A-T: 2.0801
+  C-G: 1.0000
+  C-T: 3.7042
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1826
+  pi(C) = 0.3059
+  pi(G) = 0.2628
+  pi(T) = 0.2487
+
+Rate matrix Q:
+
+  A    -1.303    0.3899    0.5964     0.317
+  C    0.2328   -0.9583     0.161    0.5645
+  G    0.4146    0.1874   -0.7544    0.1524
+  T    0.2328    0.6943     0.161    -1.088
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.4108
+
+ Category  Relative_rate  Proportion
+  1         0.01831        0.25
+  2         0.1898         0.25
+  3         0.7428         0.25
+  4         3.049          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1714.4959 (s.e. 108.4363)
+Unconstrained log-likelihood (without tree): -937.6284
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 3526.9919
+Corrected Akaike information criterion (AICc) score: 3556.3332
+Bayesian information criterion (BIC) score: 3692.6069
+
+Total tree length (sum of branch lengths): 3.6434
+Sum of internal branch lengths: 1.1338 (31.1186% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0046) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MH863143.1|Neophaeococcomyces' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--MH863143.1|Neophaeococcomyces
+|
+|                                               +**LaloCPC35996|Lithohypha_aloicola.CPC.35996
+|                            +------------------| (100)
+|                            |                  +**LgutM1|Lithohypha_guttulata.M1
+|                         +--| (18)
+|                         |  +**KpetCBS726.95|Knufia_petricola.CBS.726.95
+|                      +--| (16)
+|                      |  |            +--AcauCBS45767|Arthrocladium_caudatum.CBS.457.67
+|                      |  |        +---| (77)
+|                      |  |        |   |     +--AtroCBS134926|Arthrocladium_tropicale.CBS.134926
+|                      |  |        |   |  +--| (88)
+|                      |  |        |   |  |  +--AfulCBS136243|Arthrocladium_fulminans.CBS.136243
+|                      |  |        |   +--| (44)
+|                      |  |        |      +--AtarCBS127021|Arthrocladium_tardum.CBS.127021
+|                      |  |     +--| (15)
+|                      |  |     |  +--KvatCBS139722|Knufia_vaticanii.CBS.139722
+|                      |  |  +--| (10)
+|                      |  |  |  |                       +--KendUAMH10396|Knufia_endospora.UAMH.10396
+|                      |  |  |  |                 +-----| (98)
+|                      |  |  |  |                 |     +--KcryDAOM21655|Knufia_cryptophialidica.DAOM.216555
+|                      |  |  |  |              +--| (14)
+|                      |  |  |  |              |  +---------LcatCGMCC31408|Lithohypha_catenulata.CGMCC_3.14008
+|                      |  |  |  |           +--| (12)
+|                      |  |  |  |           |  +-------KepiCBS120353|Knufia_epidermidis.CBS.120353
+|                      |  |  |  |        +--| (23)
+|                      |  |  |  |        |  +---KmedCBS129721|Knufia_mediterranea.CBS.139721
+|                      |  |  |  |     +--| (14)
+|                      |  |  |  |     |  +--KperCBS88595|Knufia_perforans.CBS.885.95
+|                      |  |  |  |  +--| (12)
+|                      |  |  |  |  |  +--KcalCGMCC317222|Knufia_calcarecola.CGMCC_3.17222
+|                      |  |  |  +**| (10)
+|                      |  |  |     +--KmarCBS139726|Knufia_marmoricola.CBS.139726
+|                      |  +--| (8)
+|                      |     +--KkarCBS139720|Knufia_karalitana.CBS.139720
+|          +-----------| (50)
+|          |           +--KtsuFMR10621|Knufia_tsunedae.FMR.10621
+|       +--| (82)
+|       |  +------------------------------------------------EderCBS201735|Exophiala_dermatitidis_CBS.207.35
+|  +----| (96)
+|  |    +----JES112|Knufia_sp.JES112
++--| (78)
+|  +--KF777182|Neophaeococcomyces_catenatus_GenBank.KF777182
+|
++--MW798187.1
+
+Tree in newick format:
+
+(MH863143.1|Neophaeococcomyces:0.0101740334,(((((((LaloCPC35996|Lithohypha_aloicola.CPC.35996:0.0000021708,LgutM1|Lithohypha_guttulata.M1:0.0000021558)100:0.4108819601,KpetCBS726.95|Knufia_petricola.CBS.726.95:0.0037971320)18:0.0224423147,((((AcauCBS45767|Arthrocladium_caudatum.CBS.457.67:0.0464574212,((AtroCBS134926|Arthrocladium_tropicale.CBS.134926:0.0309071566,AfulCBS136243|Arthrocladium_fulminans.CBS.136243:0.0089870031)88:0.0423662894,AtarCBS127021|Arthrocladium_tardum.CBS.127021:0.0146539279)44:0.0305623410)77:0.1033214961,KvatCBS139722|Knufia_vaticanii.CBS.139722:0.0341343859)15:0.0436861080,(((((((KendUAMH10396|Knufia_endospora.UAMH.10396:0.0130260664,KcryDAOM21655|Knufia_cryptophialidica.DAOM.216555:0.0600218625)98:0.1465408116,LcatCGMCC31408|Lithohypha_catenulata.CGMCC_3.14008:0.2178582578)14:0.0160635920,KepiCBS120353|Knufia_epidermidis.CBS.120353:0.1814063332)12:0.0451655933,KmedCBS129721|Knufia_mediterranea.CBS.139721:0.0875964868)23:0.0761481575,KperCBS88595|Knufia_perforans.CBS.885.95:0.0402950184)14:0.0231979105,KcalCGMCC317222|Knufia_calcarecola.CGMCC_3.17222:0.0543087004)12:0.0243685435,KmarCBS139726|Knufia_marmoricola.CBS.139726:0.0073807918)10:0.0035574389)10:0.0251344897,KkarCBS139720|Knufia_karalitana.CBS.139720:0.0070773936)8:0.0157006837)16:0.0309746693,KtsuFMR10621|Knufia_tsunedae.FMR.10621:0.0265896437)50:0.2636207170,EderCBS201735|Exophiala_dermatitidis_CBS.207.35:1.0700783487)82:0.0763098759,JES112|Knufia_sp.JES112:0.1115214682)96:0.1164399848,KF777182|Neophaeococcomyces_catenatus_GenBank.KF777182:0.0120036989)78:0.0281798591,MW798187.1:0.0604732818);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1724.357185
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--MH863143.1|Neophaeococcomyces
+|
+|                                                  +--LaloCPC35996|Lithohypha_aloicola.CPC.35996
+|                                     +------------| (100)
+|                                     |            +--LgutM1|Lithohypha_guttulata.M1
+|                              +------| (40)
+|                              |      +-----LcatCGMCC31408|Lithohypha_catenulata.CGMCC_3.14008
+|                           +--| (5)
+|                           |  |        +--KpetCBS726.95|Knufia_petricola.CBS.726.95
+|                           |  |     +--| (23)
+|                           |  |     |  +--KtsuFMR10621|Knufia_tsunedae.FMR.10621
+|                           |  |  +--| (18)
+|                           |  |  |  +--KkarCBS139720|Knufia_karalitana.CBS.139720
+|                           |  +--| (9)
+|                           |     |  +--KcalCGMCC317222|Knufia_calcarecola.CGMCC_3.17222
+|                           |     +--| (23)
+|                           |        +--KmarCBS139726|Knufia_marmoricola.CBS.139726
+|                        +--| (11)
+|                        |  |               +--KendUAMH10396|Knufia_endospora.UAMH.10396
+|                        |  |        +------| (98)
+|                        |  |        |      +--KcryDAOM21655|Knufia_cryptophialidica.DAOM.216555
+|                        |  |     +--| (27)
+|                        |  |     |  +---KmedCBS129721|Knufia_mediterranea.CBS.139721
+|                        |  |  +--| (23)
+|                        |  |  |  +-------KepiCBS120353|Knufia_epidermidis.CBS.120353
+|                        |  +--| (3)
+|                        |     +--KperCBS88595|Knufia_perforans.CBS.885.95
+|              +---------| (50)
+|              |         |      +--AcauCBS45767|Arthrocladium_caudatum.CBS.457.67
+|              |         |  +---| (77)
+|              |         |  |   |     +--AtroCBS134926|Arthrocladium_tropicale.CBS.134926
+|              |         |  |   |  +--| (88)
+|              |         |  |   |  |  +--AfulCBS136243|Arthrocladium_fulminans.CBS.136243
+|              |         |  |   +--| (44)
+|              |         |  |      +--AtarCBS127021|Arthrocladium_tardum.CBS.127021
+|              |         +--| (15)
+|              |            +--KvatCBS139722|Knufia_vaticanii.CBS.139722
+|         +----| (82)
+|         |    +--------------------------------------------EderCBS201735|Exophiala_dermatitidis_CBS.207.35
+|  +------| (96)
+|  |      +--JES112|Knufia_sp.JES112
++--| (78)
+|  +--KF777182|Neophaeococcomyces_catenatus_GenBank.KF777182
+|
++--MW798187.1
+
+
+Consensus tree in newick format: 
+
+(MH863143.1|Neophaeococcomyces:0.0103399538,((((((((LaloCPC35996|Lithohypha_aloicola.CPC.35996:0.0000021369,LgutM1|Lithohypha_guttulata.M1:0.0000021369)100:0.3155985427,LcatCGMCC31408|Lithohypha_catenulata.CGMCC_3.14008:0.1578013148)40:0.1777279005,(((KpetCBS726.95|Knufia_petricola.CBS.726.95:0.0266434186,KtsuFMR10621|Knufia_tsunedae.FMR.10621:0.0561666726)23:0.0130725454,KkarCBS139720|Knufia_karalitana.CBS.139720:0.0072602185)18:0.0318358941,(KcalCGMCC317222|Knufia_calcarecola.CGMCC_3.17222:0.0605223071,KmarCBS139726|Knufia_marmoricola.CBS.139726:0.0081391732)23:0.0022575397)9:0.0214290482)5:0.0006292925,((((KendUAMH10396|Knufia_endospora.UAMH.10396:0.0285101944,KcryDAOM21655|Knufia_cryptophialidica.DAOM.216555:0.0429164830)98:0.1614418807,KmedCBS129721|Knufia_mediterranea.CBS.139721:0.0930449257)27:0.0350530848,KepiCBS120353|Knufia_epidermidis.CBS.120353:0.1875940421)23:0.0642841767,KperCBS88595|Knufia_perforans.CBS.885.95:0.0547248145)3:0.0000027485)11:0.0477755603,((AcauCBS45767|Arthrocladium_caudatum.CBS.457.67:0.0479861725,((AtroCBS134926|Arthrocladium_tropicale.CBS.134926:0.0306547016,AfulCBS136243|Arthrocladium_fulminans.CBS.136243:0.0089086169)88:0.0425457205,AtarCBS127021|Arthrocladium_tardum.CBS.127021:0.0140247775)44:0.0285107683)77:0.0991536047,KvatCBS139722|Knufia_vaticanii.CBS.139722:0.0326252286)15:0.0000026491)50:0.2435807568,EderCBS201735|Exophiala_dermatitidis_CBS.207.35:1.0390587804)82:0.1338538540,JES112|Knufia_sp.JES112:0.0667394075)96:0.1594893002,KF777182|Neophaeococcomyces_catenatus_GenBank.KF777182:0.0105948079)78:0.0293735892,MW798187.1:0.0601785564);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 10 19:43:11 2022
+Total CPU time used: 20.069752 seconds (0h:0m:20s)
+Total wall-clock time used: 10.5621779 seconds (0h:0m:10s)
+

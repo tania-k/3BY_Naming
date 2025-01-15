@@ -1,0 +1,15 @@
+JES112	End of SSU sequence not found
+KtsuFMR10621	End of SSU sequence not found; Start of LSU sequence not found
+KendUAMH10396	End of SSU sequence not found; Start of LSU sequence not found
+KmedCBS129721	End of SSU sequence not found; Start of LSU sequence not found
+KmarCBS139726	End of SSU sequence not found; Start of LSU sequence not found
+KperCBS88595	Start of LSU sequence not found
+KepiCBS120353	End of SSU sequence not found; Start of LSU sequence not found
+KcalCGMCC317222	End of SSU sequence not found; Start of LSU sequence not found
+LcatCGMCC31408	End of SSU sequence not found; Start of LSU sequence not found
+LgutM1	End of SSU sequence not found
+AfulCBS136243	End of SSU sequence not found
+AcauCBS45767	End of SSU sequence not found; Start of LSU sequence not found
+AtarCBS127021	End of SSU sequence not found
+EderCBS201735	End of SSU sequence not found
+MW798187.1	Start of LSU sequence not found
