@@ -7,4 +7,4 @@ CPU=$SLURM_CPUS_ON_NODE
 
 source activate clinker
 
-clinker *.gbk -i 0.23 -p Chaet3.html
+clinker *.gbk -i 0.23 -p Chaet_FINAL.html
