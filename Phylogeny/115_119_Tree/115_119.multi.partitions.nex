@@ -1,0 +1,10 @@
+#nexus
+begin sets;
+
+charset BT2 = 1-1959;
+charset LSU = 1-1368;
+charset ITS = 1-942;
+charset CAM = 1-357;
+
+charpartition rDNA = K3Pu+F+G4:BT2, TIM2e+R3:LSU, TIM2e+G4:ITS, TIM2e+G4:CAM;
+end;

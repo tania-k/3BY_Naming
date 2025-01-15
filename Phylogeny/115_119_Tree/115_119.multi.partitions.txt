@@ -1,0 +1,4 @@
+DNA, SSU.aln = 1-927
+DNA, LSU.aln = 928-2273
+DNA, CAM.aln = 2274-2625
+DNA, BT2.aln = 2626-4552

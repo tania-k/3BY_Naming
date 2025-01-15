@@ -1,0 +1,20 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c25 (AVX, FMA3, 503 GB RAM)
+Command: iqtree2 -nt 2 -s aln/combined/BT2.aln.clipkit -b 1000
+Seed:    856467 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 12 18:11:28 2022
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file aln/combined/BT2.aln.clipkit ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 3 sequences with 1664 columns, 91 distinct patterns
+0 parsimony-informative, 508 singleton sites, 1156 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  JES_119    0.30%    passed     96.56%
+   2  JES_115    3.19%    failed      1.71%
+   3  JES_112    1.44%    failed      2.75%
+****  TOTAL      1.64%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+ERROR: It makes no sense to perform bootstrap with less than 4 sequences.

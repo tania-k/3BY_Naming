@@ -1,0 +1,263 @@
+IQ-TREE 2.0.6 built Jun  5 2020
+
+Input file name: aln/combined/ITS.aln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 241312
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 1006 nucleotide sites
+Number of constant sites: 195 (= 19.3837% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 195 (= 19.3837% of all sites)
+Number of parsimony informative sites: 421
+Number of distinct site patterns: 785
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2e+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2e+R3         -10829.978   21775.957 +    0.907   21783.184 +    0.927   22060.954 +    0.999
+SYM+R3           -10830.256   21780.511 +    0.093   21788.258 +   0.0733   22075.336 - 0.000753
+TNe+R3           -10842.052   21798.104 - 1.41e-05   21805.079 - 1.63e-05   22078.187 - 0.000181
+TIMe+R3          -10841.650   21799.299 - 7.74e-06   21806.526 - 7.91e-06   22084.296 - 8.53e-06
+TIM3e+R3         -10842.302   21800.604 - 4.03e-06   21807.831 - 4.12e-06   22085.601 - 4.44e-06
+TIM2+F+R3        -10835.418   21792.836 - 0.000196   21800.849 - 0.000135   22092.574 - 1.36e-07
+TN+F+R3          -10849.249   21818.499 - 5.24e-10   21826.245 - 4.13e-10   22113.323 - 4.24e-12
+TVMe+R3          -10852.817   21823.634 - 4.02e-11   21831.118 - 3.61e-11   22113.544 -  3.8e-12
+GTR+F+R3         -10840.359   21806.718 -  1.9e-07   21815.279 - 9.94e-08   22116.283 - 9.66e-13
+K2P+R3           -10865.544   21843.088 -  2.4e-15   21849.815 - 3.15e-15   22118.257 -  3.6e-13
+TIM+F+R3         -10848.928   21819.856 - 2.66e-10   21827.868 - 1.84e-10   22119.594 - 1.85e-13
+TIM3+F+R3        -10849.419   21820.838 - 1.63e-10   21828.850 - 1.12e-10   22120.576 - 1.13e-13
+TPM2+F+R3        -10853.916   21827.831 - 4.93e-12   21835.577 - 3.89e-12   22122.656 - 3.99e-14
+TPM2u+F+R3       -10853.916   21827.831 - 4.93e-12   21835.577 - 3.89e-12   22122.656 - 3.99e-14
+K3P+R3           -10865.143   21844.286 - 1.32e-15   21851.261 - 1.53e-15   22124.369 - 1.69e-14
+GTR+F+R4         -10838.957   21807.913 - 1.04e-07   21817.041 - 4.12e-08   22127.306 -  3.9e-15
+TVM+F+R3         -10853.423   21830.846 - 1.09e-12   21839.130 - 6.58e-13   22135.498 -  6.5e-17
+HKY+F+R3         -10868.060   21854.120 - 9.65e-18   21861.604 - 8.67e-18   22144.031 - 9.11e-19
+GTR+F+G4         -10865.778   21851.556 - 3.48e-17   21859.302 - 2.74e-17   22146.381 - 2.81e-19
+K3Pu+F+R3        -10867.756   21855.513 - 4.81e-18   21863.259 - 3.79e-18   22150.337 - 3.89e-20
+TPM3+F+R3        -10867.864   21855.728 - 4.32e-18   21863.474 -  3.4e-18   22150.552 -  3.5e-20
+TPM3u+F+R3       -10867.864   21855.728 - 4.32e-18   21863.474 -  3.4e-18   22150.552 -  3.5e-20
+GTR+F+I+G4       -10865.766   21853.532 - 1.29e-17   21861.545 - 8.93e-18   22153.270 - 8.98e-21
+JC+R3            -10901.868   21913.735 - 1.09e-30   21920.219 - 1.62e-30   22183.991 - 1.92e-27
+GTR+F+R2         -10881.950   21885.901 - 1.21e-24   21893.913 - 8.36e-25   22185.639 - 8.41e-28
+F81+F+R3         -10903.639   21923.277 - 9.27e-33   21930.504 - 9.48e-33   22208.274 - 1.02e-32
+GTR+F+I          -11452.567   23025.135 - 5.03e-272   23032.881 - 3.97e-272   23319.959 - 4.07e-274
+GTR+F            -11534.145   23186.290 - 5.1e-307   23193.775 - 4.58e-307   23476.201 - 4.81e-308
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2e+R3
+
+Rate parameter R:
+
+  A-C: 1.5360
+  A-G: 1.4189
+  A-T: 1.5360
+  C-G: 1.0000
+  C-T: 2.8512
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.9614    0.3288    0.3038    0.3288
+  C    0.3288    -1.153    0.2141    0.6104
+  G    0.3038    0.2141   -0.7319    0.2141
+  T    0.3288    0.6104    0.2141    -1.153
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.5051,0.0775) (0.2807,1.041) (0.2143,3.121)
+
+ Category  Relative_rate  Proportion
+  1         0.0775         0.5051
+  2         1.041          0.2807
+  3         3.121          0.2143
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10822.1485 (s.e. 306.4960)
+Unconstrained log-likelihood (without tree): -6541.7525
+Number of free parameters (#branches + #model parameters): 58
+Akaike information criterion (AIC) score: 21760.2969
+Corrected Akaike information criterion (AICc) score: 21767.5240
+Bayesian information criterion (BIC) score: 22045.2937
+
+Total tree length (sum of branch lengths): 34.3217
+Sum of internal branch lengths: 3.1956 (9.3106% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Neohortaea_acidophila_CBS113389' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--Neohortaea_acidophila_CBS113389
+|
+|                          +--Aureobasidium_mangrovei_IBRCM30265
+|                       +--| (87)
+|                       |  +--Aureobasidium_sp.AWRI4619-CO-2020
+|                    +--| (63)
+|                    |  +--Zalaria_obscura_FKI-L7-BK-DRAB2
+|                 +--| (3)
+|                 |  |           +--Leptosphaeria_biglobosa_CA1
+|                 |  |        +--| (5)
+|                 |  |        |  |             +----------------------------------------------Taxawa_tesnikishii_JES119
+|                 |  |        |  |     +-------| (40)
+|                 |  |        |  |     |       +---------------------------------Coniosporium_tulheliwenetii_JES115
+|                 |  |        |  |  +--| (5)
+|                 |  |        |  |  |  +--Alternaria_solani_NL03003
+|                 |  |        |  +--| (4)
+|                 |  |        |     +--Leptosphaeria_maculans_JN3
+|                 |  |     +--| (7)
+|                 |  |     |  +--Phaeosphaeria_sp.MPI-PUGE-AT-0046c
+|                 |  |  +--| (12)
+|                 |  |  |  +--Polyplosphaeria_fusca_CBS125425
+|                 |  +--| (9)
+|                 |     |  +--Capronia_coronata_CBS617.96
+|                 |     +--| (95)
+|                 |        |  +--Knufia_petricola_MA5789
+|                 |        +--| (84)
+|                 |           +--Neophaeococcomyces_aloes_FJII-L3-CM-P2
+|              +--| (4)
+|              |  +--Coniosporium_apollinis_CBS100218
+|           +--| (7)
+|           |  +--Claviceps_purpurea_20.1
+|        +**| (5)
+|        |  +-----Tuber_melanosporum_Mel28
+|     +--| (10)
+|     |  |  +--Scorias_spongiosa_HLSS1
+|     |  +--| (73)
+|     |     +--Polychaeton_citri_CBS116435
+|  +--| (4)
+|  |  +--Baudoinia_panamericana_UAMH10762
++--| (26)
+|  |        +--Friedmanniomyces_simplex_CCFEE5184
+|  |     +--| (28)
+|  |     |  +--------------------------------------------------Neophaeococcomyces_mojaviensis_JES112
+|  |  +--| (36)
+|  |  |  +--Friedmanniomyces_endolithicus_CCFEE5311
+|  +--| (39)
+|     |  +--Zymoseptoria_tritici_CBS100329
+|     +--| (37)
+|        +--Teratosphaeria_gauchensis_CMW17545
+|
+|  +--Salinomyces_thailandica_CCFEE6315
++--| (61)
+   +--Hortaea_werneckii_EXF-2000
+
+Tree in newick format:
+
+(Neohortaea_acidophila_CBS113389:0.2440170502,(((((((((Aureobasidium_mangrovei_IBRCM30265:0.0217404297,Aureobasidium_sp.AWRI4619-CO-2020:0.0430608070)87:0.1125358000,Zalaria_obscura_FKI-L7-BK-DRAB2:0.1055903286)63:0.1014908238,((((Leptosphaeria_biglobosa_CA1:0.0526673541,(((Taxawa_tesnikishii_JES119:9.5578656633,Coniosporium_tulheliwenetii_JES115:6.9009594660)40:1.6499768849,Alternaria_solani_NL03003:0.2380462112)5:0.0237525742,Leptosphaeria_maculans_JN3:0.0831571921)4:0.0389225314)5:0.0686193929,Phaeosphaeria_sp.MPI-PUGE-AT-0046c:0.1648117001)7:0.1445929392,Polyplosphaeria_fusca_CBS125425:0.1426001412)12:0.2454565675,(Capronia_coronata_CBS617.96:0.1713922067,(Knufia_petricola_MA5789:0.1150592374,Neophaeococcomyces_aloes_FJII-L3-CM-P2:0.1212402957)84:0.1076782836)95:0.1732050182)9:0.0994618333)3:0.0146902253,Coniosporium_apollinis_CBS100218:0.1999869385)4:0.0382438398,Claviceps_purpurea_20.1:0.5340509858)7:0.0931665101,Tuber_melanosporum_Mel28:1.3189972169)5:0.0000028155,(Scorias_spongiosa_HLSS1:0.0851404548,Polychaeton_citri_CBS116435:0.1293277218)73:0.0724774912)10:0.0407243750,Baudoinia_panamericana_UAMH10762:0.1709692885)4:0.0065658342,(((Friedmanniomyces_simplex_CCFEE5184:0.0280975899,Neophaeococcomyces_mojaviensis_JES112:10.2636818354)28:0.0179301396,Friedmanniomyces_endolithicus_CCFEE5311:0.0355010027)36:0.0609248603,(Zymoseptoria_tritici_CBS100329:0.1438262578,Teratosphaeria_gauchensis_CMW17545:0.1092362203)37:0.0222563895)39:0.0305300178)26:0.0154069636,(Salinomyces_thailandica_CCFEE6315:0.0427208204,Hortaea_werneckii_EXF-2000:0.1023511821)61:0.0169536837);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10823.689941
+Robinson-Foulds distance between ML tree and consensus tree: 26
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Neohortaea_acidophila_CBS113389
+|
+|                          +--Aureobasidium_mangrovei_IBRCM30265
+|                       +--| (87)
+|                       |  +--Aureobasidium_sp.AWRI4619-CO-2020
+|                    +--| (63)
+|                    |  +--Zalaria_obscura_FKI-L7-BK-DRAB2
+|                 +--| (9)
+|                 |  |           +--Leptosphaeria_biglobosa_CA1
+|                 |  |        +--| (26)
+|                 |  |        |  +--Leptosphaeria_maculans_JN3
+|                 |  |     +--| (60)
+|                 |  |     |  |  +--Phaeosphaeria_sp.MPI-PUGE-AT-0046c
+|                 |  |     |  +--| (36)
+|                 |  |     |     +--Alternaria_solani_NL03003
+|                 |  |  +--| (68)
+|                 |  |  |  +--Polyplosphaeria_fusca_CBS125425
+|                 |  +--| (43)
+|                 |     |  +--Capronia_coronata_CBS617.96
+|                 |     +--| (95)
+|                 |        |  +--Knufia_petricola_MA5789
+|                 |        +--| (84)
+|                 |           +--Neophaeococcomyces_aloes_FJII-L3-CM-P2
+|              +--| (17)
+|              |  +--Coniosporium_apollinis_CBS100218
+|           +--| (24)
+|           |  +--Claviceps_purpurea_20.1
+|        +--| (19)
+|        |  +------Tuber_melanosporum_Mel28
+|     +--| (20)
+|     |  |  +--Scorias_spongiosa_HLSS1
+|     |  +--| (73)
+|     |     +--Polychaeton_citri_CBS116435
+|  +--| (11)
+|  |  |           +--Friedmanniomyces_simplex_CCFEE5184
+|  |  |        +--| (66)
+|  |  |        |  +--Friedmanniomyces_endolithicus_CCFEE5311
+|  |  |     +--| (36)
+|  |  |     |  +----------------------------------------------------Neophaeococcomyces_mojaviensis_JES112
+|  |  |  +--| (39)
+|  |  |  |  |  +--Zymoseptoria_tritici_CBS100329
+|  |  |  |  +--| (37)
+|  |  |  |     +--Teratosphaeria_gauchensis_CMW17545
+|  |  +--| (7)
+|  |     +--Baudoinia_panamericana_UAMH10762
++--| (26)
+|  |        +-------------------------------------------------Taxawa_tesnikishii_JES119
+|  +--------| (40)
+|           +-----------------------------------Coniosporium_tulheliwenetii_JES115
+|
+|  +--Salinomyces_thailandica_CCFEE6315
++--| (61)
+   +--Hortaea_werneckii_EXF-2000
+
+
+Consensus tree in newick format: 
+
+(Neohortaea_acidophila_CBS113389:0.2454107979,(((((((((Aureobasidium_mangrovei_IBRCM30265:0.0220842594,Aureobasidium_sp.AWRI4619-CO-2020:0.0431366208)87:0.1143777222,Zalaria_obscura_FKI-L7-BK-DRAB2:0.1052084191)63:0.1017148146,((((Leptosphaeria_biglobosa_CA1:0.0578557937,Leptosphaeria_maculans_JN3:0.1147420643)26:0.0338069534,(Phaeosphaeria_sp.MPI-PUGE-AT-0046c:0.1680417278,Alternaria_solani_NL03003:0.2272869734)36:0.0425761757)60:0.1547554996,Polyplosphaeria_fusca_CBS125425:0.1655572767)68:0.2239405307,(Capronia_coronata_CBS617.96:0.1740914028,(Knufia_petricola_MA5789:0.1154598662,Neophaeococcomyces_aloes_FJII-L3-CM-P2:0.1224785896)84:0.1076583073)95:0.1766899170)43:0.1016902341)9:0.0150226517,Coniosporium_apollinis_CBS100218:0.2002950787)17:0.0384421224,Claviceps_purpurea_20.1:0.5401174074)24:0.0934866399,Tuber_melanosporum_Mel28:1.3360531691)19:0.0000020181,(Scorias_spongiosa_HLSS1:0.0854696335,Polychaeton_citri_CBS116435:0.1304019800)73:0.0736690071)20:0.0450755556,((((Friedmanniomyces_simplex_CCFEE5184:0.0464051602,Friedmanniomyces_endolithicus_CCFEE5311:0.0358098150)66:0.0435480419,Neophaeococcomyces_mojaviensis_JES112:9.9999983465)36:0.0181480063,(Zymoseptoria_tritici_CBS100329:0.1450801796,Teratosphaeria_gauchensis_CMW17545:0.1107131694)37:0.0221025315)39:0.0313249944,Baudoinia_panamericana_UAMH10762:0.1780234919)7:0.0004676972)11:0.0152656132,(Taxawa_tesnikishii_JES119:9.3951921170,Coniosporium_tulheliwenetii_JES115:6.8125675087)40:1.8068855176)26:0.0000029258,(Salinomyces_thailandica_CCFEE6315:0.0431513631,Hortaea_werneckii_EXF-2000:0.1027002407)61:0.0178124167);
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 15 20:27:38 2022
+Total CPU time used: 23.823757 seconds (0h:0m:23s)
+Total wall-clock time used: 12.07144499 seconds (0h:0m:12s)
+
